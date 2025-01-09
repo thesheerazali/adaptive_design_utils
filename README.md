@@ -30,7 +30,59 @@ A lightweight yet powerful Flutter package for creating adaptive and responsive 
 - Screen size categories
 - Orientation handling
 
-### 5. Breakpoint Management
+
+### 4. Responsive Extensions
+- Quick and easy responsive sizing
+- Simplified widget creation
+- Consistent design across devices
+
+```dart
+// Responsive SizedBox
+20.height  // SizedBox(height: 20)
+20.width   // SizedBox(width: 20)
+
+// Responsive padding
+Padding(padding: 10.p)   // All-side padding
+Padding(padding: 10.ph)  // Horizontal padding
+Padding(padding: 10.pv)  // Vertical padding
+
+// Responsive font sizing
+Text('Hello', style: TextStyle(fontSize: 16.sp))
+```
+
+### 5. Alert Utilities
+- Responsive and customizable dialogs
+- Easy-to-use snackbar methods
+- Consistent styling across alerts
+
+```dart
+// Dialogs
+Alert.showErrorDialog(
+  context, 
+  message: 'Something went wrong',
+  onClose: () {
+    // Optional callback after dialog closes
+  }
+);
+
+Alert.showSuccessDialog(
+  context, 
+  message: 'Operation completed successfully'
+);
+
+// Confirmation Dialog
+bool result = await Alert.showConfirmationDialog(
+  context, 
+  message: 'Do you want to proceed?'
+);
+
+// Snackbars
+Alert.showErrorSnackBar(context, message: 'Error occurred');
+Alert.showSuccessSnackBar(context, message: 'Success!');
+Alert.showWarningSnackBar(context, message: 'Warning message');
+```
+
+### 6. Breakpoint Management
 - Pre-defined breakpoints
 - Custom breakpoint creation
 - Device-specific layouts
@@ -41,7 +93,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  adaptive_design_utils: ^0.0.2
+  adaptive_design_utils: ^0.0.3
 ```
 
 ## Usage

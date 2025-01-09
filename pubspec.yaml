@@ -1,6 +1,6 @@
 name: adaptive_design_utils
 description: "A comprehensive Flutter plugin for adaptive and responsive design, providing utilities for adaptive layouts, responsive sizing, and device-specific optimizations."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/thesheerazali/adaptive_design_utils
 repository: https://github.com/thesheerazali/adaptive_design_utils
 

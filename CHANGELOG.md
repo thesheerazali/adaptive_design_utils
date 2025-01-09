@@ -1,3 +1,19 @@
+## 0.0.3
+
+* Added comprehensive Alert utility class with:
+  - Responsive dialogs (error, success, warning, confirmation)
+  - Customizable snackbars
+  - Optional callbacks for dialogs
+  - Responsive typography
+* Enhanced responsive extensions:
+  - `.height` for height SizedBox
+  - `.width` for width SizedBox
+  - `.sp` for responsive font sizing
+  - `.p`, `.ph`, `.pv` for responsive padding
+* Improved device and screen utilities
+* Better error handling and initialization
+* Consistent responsive design across widgets
+
 ## 0.0.2
 
 * Fixed initialization issues

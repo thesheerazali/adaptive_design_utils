@@ -8,6 +8,8 @@ export 'src/breakpoints.dart';
 export 'src/device_utils.dart';
 export 'src/advanced_layout.dart';
 export 'src/advanced_typography.dart';
+export 'src/responsive_extensions.dart';
+export 'src/alert_utils.dart';
 
 /// Main class for initializing the Adaptive Design Utils package
 class AdaptiveDesignUtils {
