@@ -1,3 +1,16 @@
+## 0.0.4
+
+* Added new responsive widgets:
+  - `ResponsiveGridView`: Easy-to-use responsive grid layout
+  - `ResponsiveWrap`: Adaptive wrap layout with responsive spacing
+  - `ResponsiveContainer`: Container with responsive max width constraints
+  - `ResponsiveListView`: List view with responsive direction and spacing
+* Enhanced existing widgets:
+  - Added more customization options to existing widgets
+  - Improved responsive behavior across different screen sizes
+  - Added support for custom breakpoints
+* Performance improvements and bug fixes
+
 ## 0.0.3
 
 * Added comprehensive Alert utility class with:

@@ -93,7 +93,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  adaptive_design_utils: ^0.0.3
+  adaptive_design_utils: ^0.0.4
 ```
 
 ## Usage
@@ -226,7 +226,25 @@ Check out the [example](example) folder for a complete demo application showcasi
 
 Please file feature requests and bugs at the [issue tracker](https://github.com/thesheerazali/adaptive_design_utils/issues).
 
+## Author
+
+### Sheeraz Ali
+
+Flutter Developer passionate about creating tools that make app development easier and more efficient.
+
+- 📧 Email: sheerazali.dev@gmail.com
+- 🌐 GitHub: [@thesheerazali](https://github.com/thesheerazali)
+- 💼 LinkedIn: [Sheeraz Ali](https://www.linkedin.com/in/thesheerazali)
+- ☕ Buy me a coffee: [thesheerazali](https://buymeacoffee.com/sheerazalic)
+
+## Support
+
+If you find this package helpful, consider supporting its development:
+
+- ⭐ Star the repository on [GitHub](https://github.com/thesheerazali/adaptive_design_utils)
+- 💖 Sponsor on [GitHub Sponsors](https://github.com/sponsors/thesheerazali)
+- ☕ Buy me a coffee on [Buy Me a Coffee](https://buymeacoffee.com/sheerazalic)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-# adaptive_design_utils

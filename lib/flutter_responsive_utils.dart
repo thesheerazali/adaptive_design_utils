@@ -5,7 +5,7 @@
 // platforms in the `pubspec.yaml` at
 // https://flutter.dev/to/pubspec-plugin-platforms.
 
-library adaptive_design_utils;
+library flutter_responsive_utils;
 
 import 'package:flutter/material.dart';
 import 'src/screen_utils.dart';
@@ -16,6 +16,8 @@ export 'src/advanced_layout.dart';
 export 'src/advanced_typography.dart';
 export 'src/responsive_extensions.dart';
 export 'src/alert_utils.dart';
+export 'src/responsive_widgets.dart';
+export 'src/typography.dart';
 
 /// The main class for Adaptive Design Utils plugin
 class AdaptiveDesignUtils {
